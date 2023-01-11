@@ -1,0 +1,28 @@
+:root {
+    --primaryColor: #e59d29;
+    --secondaryColor: #18a8a1;
+    --backgroundColor: #002b36;
+}
+
+html {
+    font-family: "Raleway Regular", sans-serif;
+}
+
+.luxbar-header, .luxbar-item {
+    font-weight: 600;
+    color: var(--backgroundColor);
+}
+
+.luxbar-item {
+
+}
+
+body {
+    margin-top: 5em;
+    background: var(--backgroundColor);
+    color: var(--primaryColor);
+}
+
+h1 {
+    text-align:center
+}
