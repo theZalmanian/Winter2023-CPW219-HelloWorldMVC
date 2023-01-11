@@ -5,24 +5,49 @@
 }
 
 html {
-    font-family: "Raleway Regular", sans-serif;
+    font-family: sans-serif;
 }
 
-.luxbar-header, .luxbar-item {
+.luxbar-header, .luxbar-header > h1, .luxbar-item {
     font-weight: 600;
     color: var(--backgroundColor);
 }
 
-.luxbar-item {
-
-}
-
 body {
     margin-top: 5em;
+    text-align: center;
     background: var(--backgroundColor);
     color: var(--primaryColor);
 }
 
 h1 {
-    text-align:center
+    margin: .3em 0;
+}
+
+h1, h2 {
+    color: var(--secondaryColor);
+}
+
+.page-content {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: .5em 0 .2em;
+}
+
+p {
+    margin: .5em;
+}
+
+#img-galaxy {
+    height: 400px;
+    width: 600px;
+    margin: .5em auto 0;
+    border: 3px solid var(--backgroundColor);
+    border-radius: 1em;
+    box-shadow: 0 0 5px 3px var(--secondaryColor);
 }
